@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>질문게시판</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>교과목 질문게시판</h1>
+        <form id="question-form">
+            <input type="text" id="subject" placeholder="교과목명" required>
+            <textarea id="question" placeholder="질문을 입력하세요" required></textarea>
+            <button type="submit">질문 올리기</button>
+        </form>
+        <div id="questions-list">
+            <!-- 질문 목록이 여기에 표시됩니다 -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
